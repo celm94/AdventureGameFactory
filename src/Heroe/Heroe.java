@@ -7,7 +7,7 @@ public abstract class Heroe {
     private int vidas;
     private int energia;
 
-    public Heroe(String nombre, String poder, int vidas, int energia) {
+    public Heroe(String nombre, String poder, String vidas, String energia) {
         this.nombre = nombre;
         this.poder = poder;
         this.vidas = vidas;
