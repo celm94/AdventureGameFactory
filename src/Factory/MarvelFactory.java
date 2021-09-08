@@ -3,7 +3,7 @@ package Factory;
 import Heroe.Heroe;
 import Villano.Villano;
 
-public class Marvel implements AbstractFactory{
+public class MarvelFactory implements AbstractFactory{
 
     @Override
     public Heroe getHeroe() {

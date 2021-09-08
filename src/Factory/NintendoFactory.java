@@ -3,7 +3,7 @@ package Factory;
 import Heroe.Heroe;
 import Villano.Villano;
 
-public class Nintendo implements AbstractFactory{
+public class NintendoFactory implements AbstractFactory{
     @Override
     public Heroe getHeroe() {
         return null;

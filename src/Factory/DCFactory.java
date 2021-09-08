@@ -5,7 +5,7 @@ import Villano.Villano;
 import Heroe.HeroeDC;
 import Villano.VillanoDC;
 
-public class DC implements AbstractFactory{
+public class DCFactory implements AbstractFactory{
     @Override
     public Heroe getHeroe() { return new HeroeDC("Batman", "x", 5,5); }
 
